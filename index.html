@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>agaamin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style\topbar.css">
+  <link rel="stylesheet" href="Style\section-1.css">
+  <link rel="stylesheet" href="Style\section-2.css">
+  <link rel="stylesheet" href="Style\section-3.css">
+  <link rel="stylesheet" href="Style\section-4.css">
+  <link rel="stylesheet" href="Style\section-5.css">
+  <link rel="stylesheet" href="Style\section-6.css">
+</head>
+<body>
+  <!-- Top Bar html -->
+<div class="top-bar">
+  <div class="logo">
+    <img src="AG LOGO CENTER.png" alt="Company Logo">
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">
+    &#9776; <!-- Hamburger icon -->
+  </div>
+  <div class="nav-links">
+    <a href="#">Sign Up</a>
+    <a href="#">Sign In</a>
+    <a href="#">FAQs</a>
+    <a href="#">Support</a>
+  </div>
+</div>
+
+<div id="side-menu" class="side-menu">
+  <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
+  <a href="#">Sign Up</a>
+  <a href="#">Sign In</a>
+  <a href="#">FAQs</a>
+  <a href="#">Support</a>
+</div>
+
+  <!-- Section 1 -->
+  <div class="background">
+    <div class="container">
+      <img src="AG LOGO CENTER.png" alt="Logo"> <!-- Replace with the actual logo image -->
+      <div class="headline">
+        Your Name, Your Identity, Your Rules. <br>
+        Find the one that defines you!
+      </div>
+      <div class="search-container">
+        <div class="search-icon">
+          <img src="orange search.png" alt="Search Icon"> <!-- Replace with correct image path -->
+        </div>
+        <input type="text" class="search-input" placeholder="Type your name..." />
+        <div class="dropdown">
+          <button class="dropdown-button" id="dropdownButton">BH3</button>
+          <div class="dropdown-menu" id="dropdownMenu">
+            <div onclick="selectOption('bh3')">bh3</div>
+            <div onclick="selectOption('भ')">भ</div>
+            <div onclick="selectOption('e₹')">e₹</div>
+            <div onclick="selectOption('ഭ')">ഭ</div>
+            <div onclick="selectOption('ভ')">ভ</div>
+            <div onclick="selectOption('ப')">ப</div>
+            <div onclick="selectOption('𑒦')">𑒦</div>
+            <div onclick="selectOption('mu3')">mu3</div>
+            <div onclick="selectOption('🇮🇳👩')">🇮🇳👩</div>
+            <div onclick="selectOption('rarity')">rarity</div>
+            <div onclick="selectOption('foodz')">foodz</div>
+            <div onclick="selectOption('.ᱵᱷ')">.ᱵᱷ</div>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Section 2 -->
+
+<section class="section-2">
+  <h1 class="section-2-headline">One Name<br>Multiple Uses</h1>
+  <div class="card-container">
+
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="icon-container">
+        <img src="website.png" alt="Icon" class="icon" />
+      </div>
+      <div class="text-container">
+        <h3 class="title">DOMAIN NAME</h3>
+        <p class="subtitle">Could be your name as a Web2 & Web3 domain name</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="icon-container">
+        <img src="email ion.png" alt="Icon" class="icon" />
+      </div>
+      <div class="text-container">
+        <h3 class="title">E-MAIL ADDRESS</h3>
+        <p class="subtitle">Could be your name as your personal e-mail ID name</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <div class="icon-container">
+        <img src="wallet.png" alt="Icon" class="icon" />
+      </div>
+      <div class="text-container">
+        <h3 class="title">UPI ADDRESS</h3>
+        <p class="subtitle">Could be your name as your de facto payment ID</p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <div class="icon-container">
+        <img src="NFT icon.png" alt="Icon" class="icon" />
+      </div>
+      <div class="text-container">
+        <h3 class="title">NON FUNGIBLE TOKEN</h3>
+        <p class="subtitle">Could be your name in the metaverse</p>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card">
+      <div class="icon-container">
+        <img src="login.png" alt="Icon" class="icon" />
+      </div>
+      <div class="text-container">
+        <h3 class="title">SINGLE SIGN ON</h3>
+        <p class="subtitle">Could be your universal login to all the apps</p>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="card">
+      <div class="icon-container">
+        <img src="green tick.png" alt="Icon" class="icon" />
+      </div>
+      <div class="text-container">
+        <h3 class="title">WALLET ID</h3>
+        <p class="subtitle">Could be your universal wallet address for eRupee & Crypto</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 3 -->
+<section class="section-3">
+  <div class="content">
+    <h1 class="section-3-headline">Your Digital Aadhaar<br>In Your Language</h1>
+    <img src="orange search.png" alt="Search Icon" class="search-iconP3">
+    <!-- Language Cards Container -->
+    <div class="language-container">
+      <!-- Language Cards -->
+      <div class="languages">
+        <div class="language-card">English</div>
+        <div class="language-card">Hindi</div>
+        <div class="language-card">Bengali</div>
+        <div class="language-card">Malayalam</div>
+      </div>
+      <div class="languages">
+        <div class="language-card">Arabic</div>
+        <div class="language-card">Japanese</div>
+        <div class="language-card">Korean</div>
+        <div class="language-card">Pali</div>
+        <div class="language-card">Russian</div>
+      </div>
+      <div class="languages">
+        <div class="language-card">Bhutanese</div>
+        <div class="language-card">Lao</div>
+        <div class="language-card">Thai</div>
+        <div class="language-card">Khmer</div>
+      </div>
+      <div class="languages">
+        <div class="language-card">Emojis & more</div>
+      </div>
+    </div>
+
+    <div class="language-grid">
+      <div class="language-item">English</div>
+      <div class="language-item">Hindi</div>
+      <div class="language-item">Bengali</div>
+      <div class="language-item">Malayalam</div>
+      <div class="language-item">Arabic</div>
+      <div class="language-item">Japanese</div>
+      <div class="language-item">Korean</div>
+      <div class="language-item">Pali</div>
+      <div class="language-item">Russian</div>
+      <div class="language-item">Bhutanese</div>
+      <div class="language-item">Lao</div>
+      <div class="language-item">Thai</div>
+      <div class="language-item">Khmer</div>
+      <div class="language-item">👩🥋🎨🙏🍲👨</div>
+      <div class="language-item-more">& more...</div>
+    </div>
+
+    <!-- Search Button (instead of search icon) -->
+    <a href="#" class="search-button">Search</a>
+
+  </div>
+</section>
+
+<!-- Section 4 -->
+
+<section class="section-4">
+  <!-- Heading -->
+  <h1 class="section-4-headline">Know More About<br>Smart Names</h1>
+  <!-- Carousel Container -->
+  <div class="carousel-container">
+    <div class="carousel">
+      <!-- 10 Placeholder Slides with YouTube Thumbnails -->
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/3TnNXtPaM2k" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/FdZ10fgg35w" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/TgDA-qK40pc" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/dvXpfihK4Vs" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/1Qd5RRVBnHw" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/c2wzCvsu6Kg" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/pfhcLcad448" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/adDEB5IH5DU" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/PSFtA-zX4G4" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/ejBYDkIoZ2c" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/LaMsPbuFQUU" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/_EIhZALQpRY" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/KK0bs_mCUD4" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/5CgBZgP7KEI" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/m8Quo7oMTIQ" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.youtube.com/embed/aaY7WLFeLT0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Slider -->
+  <div class="slider-container">
+    <input type="range" id="carousel-slider" min="0" max="7" value="0" step="1">
+  </div>
+</section>
+
+<!-- Section 5 -->
+
+<section class="section-5">
+  <div class="content">
+    <h1 class="section-5-headline">Express In Any<br>Language & Emoji</h1>
+    <div class="name-cards-container">
+      <div class="name-card">
+        <p class="name">.भ</p><br>
+        <p class="rate">INR 499</p>
+      </div>
+      <div class="name-card">
+        <p class="name">.ভ</p><br>
+        <p class="rate">INR 499</p>
+      </div>
+      <div class="name-card">
+        <p class="name">.ഭ</p><br>
+        <p class="rate">INR 499</p>
+      </div>
+      <div class="name-card">
+        <p class="name">.e₹</p><br>
+        <p class="rate">INR 800</p>
+      </div>
+      <div class="name-card">
+        <p class="name">.bh3</p><br>
+        <p class="rate">INR 899</p>
+      </div>
+      <div class="name-card">
+        <p class="name">.foodz</p><br>
+        <p class="rate">INR 399</p>
+      </div>
+      <div class="name-card">
+        <p class="name">.rarity</p><br>
+        <p class="rate">INR 2000</p>
+      </div>
+      <div class="name-card">
+        <p class="name">.🇮🇳👩</p><br>
+        <p class="rate">INR 199</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 6 -->
+
+<section class="section-6">
+  <div class="section-6-header">
+    <h1 class="section-6-h1">Thinking?<br>Let's Talk at</h1>
+    <h2 class="section-6-h2">support@agaamin.in</h2>
+  </div>
+  <div class="section-6-logo">
+    <img src="AG LOGO CENTER.png" alt="section6-logo">
+  </div>
+</section>
+
+<script src="script/topbar.js"></script>
+<script src="script/section4.js"></script>
+</body>
+</html>

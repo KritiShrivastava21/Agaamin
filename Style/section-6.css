@@ -1,0 +1,166 @@
+/* Section-6 */
+
+.section-6 {
+    background: linear-gradient(to bottom, #185adb, #001741);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    height: 90vh;
+  }
+  
+  .section-6-header {
+    flex: 1;
+  }
+  
+  .section-6-h1 {
+    font-size: 65px;
+    font-weight: 100;
+    color: #fff;
+    margin: 70px 0 100px 70px;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  .section-6-h2 {
+    font-size: 35px;
+    font-weight: 100;
+    color: #fff;
+    margin: 0 0 100px 70px;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  .section-6-logo {
+    flex-shrink: 0;
+    margin: 0 180px 0 0;
+  }
+  
+  .section-6-logo img {
+    width: 180px;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 970px) {
+  
+    .section-6-h1 {
+      font-size: 60px;
+    }
+    
+    .section-6-h2 {
+      font-size: 33px;
+    }
+    
+    .section-6-logo {
+      margin: 0 80px 0 0;
+    }
+    
+    .section-6-logo img {
+      width: 180px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 820px) {
+  
+    .section-6-h1 {
+      font-size: 45px;
+    }
+    
+    .section-6-h2 {
+      font-size: 27px;
+    }
+    
+    .section-6-logo {
+      margin: 0 80px 0 0;
+    }
+    
+    .section-6-logo img {
+      width: 110px;
+      height: auto;
+    }
+  }
+  
+  
+  @media (max-width: 820px) {
+  
+    .section-6-h1 {
+      font-size: 45px;
+    }
+    
+    .section-6-h2 {
+      font-size: 27px;
+    }
+    
+    .section-6-logo {
+      margin: 0 5px 0 0;
+    }
+    
+    .section-6-logo img {
+      width: 110px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 820px) {
+  
+    .section-6{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .section-6-h1 {
+      font-size: 45px;
+      margin: 70px 0 50px 40px;
+    }
+    
+    .section-6-h2 {
+      font-size: 27px;
+      margin: 70px 0 50px 40px;
+    }
+    
+    .section-6-logo {
+      margin-bottom: 1000px;
+      margin-left: 40px;
+  
+    }
+  
+    
+    
+    .section-6-logo img {
+      width: 110px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .section-6 {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .section-6-header {
+      margin-bottom: 20px;
+    }
+  
+    .section-6-logo img {
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-6-h1 {
+      font-size: 40px;
+    }
+  
+    .section-6-h2 {
+      font-size: 18px;
+    }
+  
+    .section-6-logo img {
+      width: 120px;
+    }
+  }
